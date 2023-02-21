@@ -1,0 +1,133 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    background-image: url("./valentin-muller-bWtd1ZyEy6w-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 50px;
+    align-items: center;
+    min-height: 50px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-size: 3vh;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+#headIcon{
+    height: 6vh;
+}
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+#inploc, #search{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    font-size: 25px;
+    font-size: 1.75vh;
+    margin-right: 0px;
+    position: relative;
+    bottom: 50px;
+}
+#formDiv{
+    display: flex;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#dataDiv{
+    display: grid;
+    border-radius: 25px;
+    color: white;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.7);
+    bottom: 50px;
+    min-height: 40%;
+    min-width: 75%;
+    grid-template-rows: 0.5fr 0.5fr;
+    grid-template-columns: 0.5fr 0.5fr;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#nameDiv{
+    font-size: 5vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#nameDiv,#temp,#infoDiv{
+    align-self: center;
+    text-align: center;
+    justify-self: center;
+    padding: 2vw;
+}
+#infoDiv,#searchDiv{
+    position: relative;
+    bottom: 40px;
+}
+#descp{
+    position: relative;
+    bottom: 15px;
+    margin: 0px;
+    font-size: 3vh;
+    min-width:1vw;
+}
+#weatherDesc{
+    position: relative;
+    bottom: 15px;
+    margin: 0px;
+    font-size: 2vh;
+    min-width:1vw;
+}
+#icon{
+    min-height: 10vh;
+    min-width: 5vw;
+}
+#feels, #wind,#humid{
+    padding: 0px;
+    font-size: 2vh;
+    margin: 0px;
+}
+#searchDiv{
+    align-self: center;
+    justify-self: center;
+}
+#newploc, #newSearch{
+    text-align: center;
+    display: block;
+    margin: auto;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    font-size: 2vh;
+}
+#newSearch{
+    position: relative;
+    top: 10px;
+}
+#errorDiv{
+    display: grid;
+    border-radius: 25px;
+    color: white;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.7);
+    bottom: 50px;
+    min-height: 40%;
+    min-width: 75%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#errorInfo{
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+}
